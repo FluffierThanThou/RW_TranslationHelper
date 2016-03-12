@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MainTabDefs>
+  
+  <MainTabDef>
+    <defName>TranslationHelper</defName>
+    <label>missing translations</label>
+    <description>overview of missing translation keys</description>
+    <windowClass>TranslationHelper.MainTab_Translations</windowClass>
+    <order>99999999</order>
+  </MainTabDef>
+
+</MainTabDefs>

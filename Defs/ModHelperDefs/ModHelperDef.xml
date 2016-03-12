@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ModHelperDef>
+        <defName>TranslationHelper</defName> 
+        <ModName>TranslationHelper</ModName> 
+        <version>0.12.6</version>
+        <PostLoadInjectors>            
+            <li>TranslationHelper.Bootstrap</li>
+        </PostLoadInjectors>
+    </ModHelperDef>
+</Defs>
