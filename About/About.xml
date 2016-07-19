@@ -3,6 +3,6 @@
   <name>Translation Helper</name>
   <author>Fluffy</author>
   <url>https://ludeon.com/forums/index.php?topic=16120.0</url>
-  <targetVersion>A12D</targetVersion>
+  <targetVersion>0.14.1238</targetVersion>
   <description>Provides and easy to copy/paste overview of missing translation keys.</description>
 </ModMetaData>

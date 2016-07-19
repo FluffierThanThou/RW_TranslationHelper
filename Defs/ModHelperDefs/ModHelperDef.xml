@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <ModHelperDef>
+    <CommunityCoreLibrary.ModHelperDef>
         <defName>TranslationHelper</defName> 
         <ModName>TranslationHelper</ModName> 
-        <version>0.12.6</version>
+        <minCCLVersion>0.14.0</minCCLVersion>
         <PostLoadInjectors>            
             <li>TranslationHelper.Bootstrap</li>
         </PostLoadInjectors>
-    </ModHelperDef>
+    </CommunityCoreLibrary.ModHelperDef>
 </Defs>

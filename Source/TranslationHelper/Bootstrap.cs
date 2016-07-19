@@ -12,7 +12,7 @@ namespace TranslationHelper
     {
         #region Methods
 
-        public override void Inject()
+        public override bool Inject()
         {
             // detour the base Translate to our custom version.
             MethodInfo source, destination;
@@ -42,6 +42,8 @@ namespace TranslationHelper
                                                            new[] { typeof( string ) },
                                                            null );
             CommunityCoreLibrary.Detours.TryDetourFromTo( source, destination );
+
+            return true;
         }
 
         #endregion Methods
